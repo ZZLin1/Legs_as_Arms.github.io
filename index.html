@@ -123,8 +123,27 @@
 </section>
 
 
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video</h2>
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://youtu.be/la_98ikyGlQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+  
 <!-- Teaser video-->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
@@ -137,7 +156,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -148,7 +167,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+Legged robots are designed to perform operational tasks in complex, rugged terrains. These tasks generally encompass two fundamental modalities: locomotion and manipulation. Humanoid robots, benefiting from their distinctive morphological configuration (independent arm and leg structures), can decouple the control of these two task types. In contrast, conventional quadruped/hexapod robots, lacking dedicated end effectors, are typically optimized for locomotion. While manipulation capabilities can be added via auxiliary robotic arms, this approach increases unnecessary energy consumption and sacrifices payload capacity. Adopting a limb reuse architecture offers a promising solution. This work proposes Legs-as-Arms, a multitask reinforcement learning (RL) framework for hexapod robots that enables simultaneous locomotion and manipulation. The framework implements effective limb reuse, enabling any leg(s) to track desired trajectories while maintaining stable body movement. By leveraging a multi-head critic network and value normalization, we integrate three key capabilities into a single control policy: (1) base locomotion control, (2) stationary whole-body manipulation, and (3) dynamic mobile manipulation. Our method demonstrates fault-tolerant gaits, expanded workspace, centimeter-level trajectory tracking accuracy, and significant load adaptability. We validate the framework’s effectiveness and practical application value through comprehensive hardware experiments across diverse multimodal scenarios.
           </p>
         </div>
       </div>
